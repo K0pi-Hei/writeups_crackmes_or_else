@@ -77,4 +77,8 @@ Ok, we are now gonna use x64dbg as the tool to achieve objective 2. Open it and 
 ![[Pasted image 20261005152639.png]]
 
 
-then start running the program, spamming the 'Run' button (the arrow button that's pointing straight to the right), or FN + F9 if you are a keyboard geek, until the ZEXOR-01.exe UI appears, demanding to enter the key. Enter whatever key you want, and click 'Enter Licence'
+then you can right-click in the biggest window, the 'CPU' one, and then select 'Search for' and then select 'All modules' and then select 'string references' in this Russian Doll of selection. Using the success message that we got in the previous objective ("Congratulations! You've cracked it!"), we can find the exact instructions where it is displayed. Click the only result that appears:
+
+![[Pasted image 20261005160146.png]]
+
+and we now jump to the memory region of the program where it is displayed (like ctrl + f to find the paragraph of an essay, but for disassembly. a program is basically a giant essay that has A LOT of "please refer to paragraph x if you have this condition" scattered throughout the program).
