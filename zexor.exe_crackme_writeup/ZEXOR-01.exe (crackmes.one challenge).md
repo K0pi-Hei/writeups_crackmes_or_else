@@ -51,7 +51,7 @@ WndProc, according to [learn.microsoft.com](https://learn.microsoft.com/en-us/wi
 
 "A callback function, which you define in your application, that processes messages sent to a window. The **WNDPROC** type defines a pointer to this callback function. The _WndProc_ name is a placeholder for the name of the function that you define in your application."
 
-to TL;DR for illiterate peasants like us, it basically means where our input goes to be processed after we click 'Check' after entering the input. so that is probably our next function to look into. double-click and we jump.
+to TL;DR for illiterate peasants like us, it basically means where our input goes to be processed after we click 'Check' after entering the input. it is like main starts up WinMain, WinMain starts everything in the GUI, and WndProc essentially decides what functions to call when the user interacts with the GUI so that is probably our next function to look into. Like an inverted pyramid of puppeteers. double-click and we jump.
 
 ![[Pasted image 20261004010506.png]]
 
@@ -72,4 +72,4 @@ Let's check if our hypothesis is true by starting up that program and using AEXO
 
 AND YESS!!! IT IS CORRECT!! Now we know that the password is stored in the memory in plaintext form all along, which is a very idiotic move in the situation where we have to build a real licence key checker, but in this scenario, it is perfect for the crackme. Objective one done, we shall continue tomorrow morning
 
-Ok,
+Ok, we are now 
