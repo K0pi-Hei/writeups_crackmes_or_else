@@ -72,4 +72,9 @@ Let's check if our hypothesis is true by starting up that program and using AEXO
 
 AND YESS!!! IT IS CORRECT!! Now we know that the password is stored in the memory in plaintext form all along, which is a very idiotic move in the situation where we have to build a real licence key checker, but in this scenario, it is perfect for the crackme. Objective one done, we shall continue tomorrow morning
 
-Ok, we are now 
+Ok, we are now gonna use x64dbg as the tool to achieve objective 2. Open it and then load the .exe
+
+![[Pasted image 20261005152639.png]]
+
+
+then start running the program, spamming the 'Run' button (the arrow button that's pointing straight to the right), or FN + F9 if you are a keyboard geek, until the ZEXOR-01.exe UI appears, demanding to enter the key. Enter whatever key you want, and click 'Enter Licence'
