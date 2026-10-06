@@ -81,4 +81,4 @@ then you can right-click in the biggest window, the 'CPU' one, and then select '
 
 ![[Pasted image 20261005160146.png]]
 
-and we now jump to the memory region of the program where it is displayed (like ctrl + f to find the paragraph of an essay, but for disassembly. a program is basically a giant essay that has A LOT of "please refer to paragraph x if you have this condition" scattered throughout the program).
+and we now jump to the memory region of the program where it is displayed (like ctrl + f to find the paragraph of an essay, but for disassembly. a program is basically a giant essay that has A LOT of "please refer to paragraph x if you have this condition" scattered throughout the writing).
