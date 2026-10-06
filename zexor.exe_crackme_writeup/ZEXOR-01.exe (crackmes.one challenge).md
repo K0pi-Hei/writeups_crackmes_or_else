@@ -82,3 +82,7 @@ then you can right-click in the biggest window, the 'CPU' one, and then select '
 ![[Pasted image 20261005160146.png]]
 
 and we now jump to the memory region of the program where it is displayed (like ctrl + f to find the paragraph of an essay, but for disassembly. a program is basically a giant essay that has A LOT of "please refer to paragraph x if you have this condition" scattered throughout the writing).
+
+![[Pasted image 20261007023954.png]]
+
+Ok, now that we have jumped here, to the highlighted 'paragraph' of the program, we can now see the heart of the program gloriously exposed to our eyes. if we look at the top of the highlighted blob, we can see that there's a 'test al, al', meaning that the program compares to some values from the al register to another value in the al register (don't ask me how I know; I'm also equally confused. Ask ChatGPT). from what we know, test with 'je' (Jump If Equal, essentially boolean if-else) is usually associated with the branching of the program, which is that if we choose one thing, the program would direct us down one path, and if we choose something else, the program would lead us down another, different path. in this context, we can see that 
