@@ -7,7 +7,7 @@ a key checker that takes user input and then compares it to the stored password 
 
 So, let's see what we have here.
 
-running DiE on the file (DiE is the tool that is used for us to get a basic dossier on the file, , we get:
+running DiE on the file (DiE is the tool that is used for us to get a basic dossier on the file, like type, what compiler did it use, what packer (the thing that's used to encrypt the file while it's inert and unpack it when it runs) it has, and such other stuff), we get:
 
 
 ![](images/image-20261007033031.png)
