@@ -105,4 +105,26 @@ so, what we're gonna do is that we'll replace 'test al, al' with 'nop', which me
 
 ![](image-20261007211846.png)
 
-now, to make sure that the changes are saved and that the program we'll be running is gonna always give us the success message, we're gonna save the patched file. Open the
+now, to make sure that the changes are saved and that the program we'll be running is gonna always give us the success message, we're gonna save the patched file. Open the 'file' section in the toolbar, and select patch. then we select patch and this window will appear:
+
+![](image-20261008010706.png)
+
+press 'select all', and then 'patch file'. for this, we'll use 'zexor_patched.exe' for it, and we'll try to run that one next:
+
+![](image-20261008012525.png)
+
+
+Ok, load it, then run it as normal, then we come to the moment of truth, the place where we see if the modifications have worked or not...
+
+![](image-20261008012853.png)
+
+
+And yep, it did. We've made our first ever patched file here, right in x64dbg. Objective 2 secured.
+
+Now, to wind down (It's currently 1 o'clock, but Monster still is holding in my system), we've learnt a few things here:
+
+1. some passwords are literally stored as plain text in the program, and is clear for all to see
+2. we can cut open a program and manipulate it on the lowest level via debuggers like x64dbg
+3. WindowsAPI is a maze of commands that is unique to the OS. We can use resources like Microsoft Learn for those.
+
+Ok, that's all for this writeup for now. ta-ta...
