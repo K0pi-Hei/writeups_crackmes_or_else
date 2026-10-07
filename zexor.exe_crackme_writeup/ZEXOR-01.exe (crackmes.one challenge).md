@@ -101,4 +101,8 @@ and now we restart the program again. Keep spamming shift + F9 to run the progra
 
 ![](image-20261007211241.png)
 
-so, what we're gonna do is that we'll replace 'test al, al' with 'nop', which means 'no opcode', which translated to Human means "there's nothing to see here, move on to the next instructions down the line". type in 'nop' and just click 'ok', and the debugger will replace
+so, what we're gonna do is that we'll replace 'test al, al' with 'nop', which means 'no opcode', which translated to Human means "there's nothing to see here, move on to the next instructions down the line". type in 'nop' and just click 'ok', and the debugger will replace it for us:
+
+![](image-20261007211846.png)
+
+now, to make sure that the changes are saved and that the program we'll be running is gonna always give us the success message, we're gonna save the patched file. Open the
