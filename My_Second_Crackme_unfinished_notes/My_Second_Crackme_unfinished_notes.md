@@ -26,4 +26,4 @@ then we take a look at the check, and we see that there are 3 checks, all chaine
 ![](Pasted%20image%2020261020105621.png)
 
 
-those are the 3 checks we have to reverve and generate a valid key for
+those are the 3 checks we have to reverse and generate a valid key for this binary. the good news is, the author probably wrote the binary with enough constraints in such a way that there's only a few viable candidates for the key. the bad news is, the author packed a truckload of intristics into the binary, that we need to decode later on.
