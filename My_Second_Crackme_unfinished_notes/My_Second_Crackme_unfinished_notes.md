@@ -27,3 +27,6 @@ then we take a look at the check, and we see that there are 3 checks, all chaine
 
 
 those are the 3 checks we have to reverse and generate a valid key for this binary. the good news is, the author probably wrote the binary with enough constraints in such a way that there's only a few viable candidates for the key. the bad news is, the author packed a truckload of intristics into the binary, that we need to decode later on.
+
+[solver script](obsidian://open?vault=Writeups&file=scripts%2Fmy_first_crackme_solver.py)  I honestly don't know how the fuck this solver works, but I'll try to get to the bottom of this. by the time I finish, I'm probably halfway to the next Terrence Tao
+
