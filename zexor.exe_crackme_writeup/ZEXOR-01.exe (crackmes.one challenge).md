@@ -91,32 +91,32 @@ Ok, now since I have revived myself with plenty of Monster, now let's get into h
 
 Now, the technique that we'll be using is called patching, which literally means that we'll open up the program, see the hex in it, throw out some, then putting your own hexes in it, much like striking out a few words in an essay. If you were a masochist, you could open up a hex editor LIKE HxD  and manually do it yourself, but let's not torture ourselves today. Remember, we want to remove the trapdoor that prevents us from reaching the success message if we did not enter the correct key, so we'll pinpoint the exact piece of trapdoor that caused all this suffering in the first place. remember that the 'test al, al' is the starting point for the branch? we'll try and lobotomize that first. 
 
-![](image-20261007210219.png)
+![](images/image-20261007210219.png)
 
 First, we'll set a breakpoint at the instruction line right above the highlighted ones. a breakpoint is essentially a function in the debugger that tells the program "stop right *there*, I want to see what's going on before continuing". so, we'll set the breakpoint by clicking the 'call' command, then pressing F2. 
 
-![](image-20261007210830.png)
+![](images/image-20261007210830.png)
 
 and now we restart the program again. Keep spamming shift + F9 to run the program shows the input GUI, then enter our own random key. Now we'll do our hex hax. Select the 'test al, al' line, the press space. A window will pop up. 
 
-![](image-20261007211241.png)
+![](images/image-20261007211241.png)
 
 so, what we're gonna do is that we'll replace 'test al, al' with 'nop', which means 'no opcode', which translated to Human means "there's nothing to see here, move on to the next instructions down the line". type in 'nop' and just click 'ok', and the debugger will replace it for us:
 
-![](image-20261007211846.png)
+![](images/image-20261007211846.png)
 
 now, to make sure that the changes are saved and that the program we'll be running is gonna always give us the success message, we're gonna save the patched file. Open the 'file' section in the toolbar, and select patch. then we select patch and this window will appear:
 
-![](image-20261008010706.png)
+![](images/image-20261008010706.png)
 
 press 'select all', and then 'patch file'. for this, we'll use 'zexor_patched.exe' for it, and we'll try to run that one next:
 
-![](image-20261008012525.png)
+![](images/image-20261008012525.png)
 
 
 Ok, load it, then run it as normal, then we come to the moment of truth, the place where we see if the modifications have worked or not...
 
-![](image-20261008012853.png)
+![](images/image-20261008012853.png)
 
 
 And yep, it did. We've made our first ever patched file here, right in x64dbg. Objective 2 secured.
