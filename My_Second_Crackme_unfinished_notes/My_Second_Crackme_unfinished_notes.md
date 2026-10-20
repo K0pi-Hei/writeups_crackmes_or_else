@@ -8,4 +8,22 @@ Find the ones what have connection with the password check, double click that on
 
 ![](Pasted%20image%2020261020104203.png)
 
-then we take a look at the check, and we see that there are 3 checks, all chained together so that the user input must pass all 3 of them 
+then we take a look at the check, and we see that there are 3 checks, all chained together so that the user input must pass all 3 of them in oerder to get the success message. 
+
+1. Length checker(input must == 14 characters)
+
+![](Pasted%20image%2020261020105020.png)
+
+2. SIMD(Single Instruction, Multiple Data ) check
+
+![](Pasted%20image%2020261020105116.png)
+
+
+![](Pasted%20image%2020261020105214.png)
+
+3. Lastly, a scalar check
+
+![](Pasted%20image%2020261020105621.png)
+
+
+those are the 3 checks we have to reverve and generate a valid key for
